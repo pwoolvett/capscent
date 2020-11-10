@@ -15,7 +15,7 @@ Enter capscent, a script to enable accented letters and `ñ` using the caps lock
 * Make sure you're sourcing it somewhere. For example, in `~/.xinitrc`:
 
   ```shell
-  $HOME/.Xmodmap
+  usermodmap=$HOME/.Xmodmap
   if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
   fi
