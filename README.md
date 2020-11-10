@@ -35,6 +35,7 @@ This will be a script. For now,
    keycode  31 = i I iacute Iacute
    keycode  32 = o O oacute Oacute
    keycode  38 = a A aacute Aacute
+   keycode  57 = n N ntilde Ntilde
    keycode  48 = apostrophe quotedbl dead_acute quotedbl
    keycode  66 = Mode_switch Caps_Lock Caps_Lock Caps_Lock Caps_Lock Caps_Lock
    ```
@@ -50,3 +51,7 @@ This will be a script. For now,
 * The default capslock feature can be accessed with `shift+capslock`.
 
 NOTE: for capital letters, order matters: `shift+caps+a` sends a normal `a`, and then enables caps lock. Instead, to insert `Á`, type `capslock+shift+a`.
+
+## Refs
+
+[Arch Wiki](https://wiki.archlinux.org/index.php/xmodmap#Keymap_table)
