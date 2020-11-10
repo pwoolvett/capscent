@@ -2,7 +2,7 @@
 
 Capslock is useless, and I need to write in spanish.
 
-Enter capscent, a script to 
+Enter capscent, a script to enable accented letters and `ñ` using the caps lock key, via `xmodmap`.
 
 ## prerequisites
 
