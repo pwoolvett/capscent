@@ -23,8 +23,25 @@ Enter capscent, a script to enable accented letters and `ñ` using the caps lock
 
 ## Install
 
+This will be a script. For now, 
 
+1. Add this to the beginning of your `~/.Xmodmap`:
+   ```
+   clear lock
+   clear control
+   add control = Caps_Lock Control_L Control_R
+   keycode  26 = e E eacute Eacute
+   keycode  30 = u U uacute Uacute
+   keycode  31 = i I iacute Iacute
+   keycode  32 = o O oacute Oacute
+   keycode  38 = a A aacute Aacute
+   keycode  48 = apostrophe quotedbl dead_acute quotedbl
+   keycode  66 = Mode_switch Caps_Lock Caps_Lock Caps_Lock Caps_Lock Caps_Lock
+   ```
+   
+   (adjust accordingly for keycodes depending on your lang/kb)
 
+1. Comment (add a `!` at the beginning of each line) for each of the keycodes in previous step
 
 ## Usage
 
